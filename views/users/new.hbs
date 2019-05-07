@@ -1,0 +1,47 @@
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Users</a></li>
+            <li class="breadcrumb-item active">New User</li>
+        </ol>
+        <br />
+        <h1>New User</h1>
+        <h5>Create a new user</h5>
+        <br />
+        <div class="row">
+            <div class="col-md-7">
+                <form action="/users/add" method='POST'>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class='form-group'>
+                                <label for="">First Name</label>
+                                <input class='form-control' type="text" name='first_name' placeholder='first name'/>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class='form-group'>
+                                <label for="">Last Name</label>
+                                <input class='form-control' type="text" name='last_name' placeholder='last name'/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='form-group has-success'>
+                        <label for="">Email</label>
+                        <input class='form-control' type="text" name='email' placeholder='enter your email'/>
+                        <div class="valid-feedback">Success! You've done it.</div>
+                    </div>
+                    <div class='form-group'>
+                        <label for="">Password</label>
+                        <input class='form-control' type="password" name='password' placeholder='Password'/>
+                    </div>
+                    <div class='form-group'>
+                        <label for="">Bio</label>
+                        <textarea class='form-control' type="text" name='bio' placeholder='bio'></textarea>
+                    </div>
+                    <input class='btn btn-primary btn-block' type="submit" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+ 

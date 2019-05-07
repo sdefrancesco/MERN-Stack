@@ -1,0 +1,51 @@
+//import components
+@import './components/form'
+    
+body
+    background-color: white
+    font-family: nunito
+    -webkit-font-smoothing: antialiased
+    background-color: #e5eaf1
+
+.btn
+    padding: .6rem 2rem
+    font-size: 1.03rem
+    font-family: nunito
+    font-weight: bold
+    border-radius: 3px
+    text-decoration: none
+    white-space: nowrap
+    &.primary
+        background-color: #00bbe5
+        color: white
+.container
+    max-width: 85%
+    margin-left: auto
+    margin-right: auto
+
+//user list for user index page
+.user
+    background-color: rgba(10, 18, 29, 0.8784313725490196)
+    padding: 2rem 1rem
+    color: white
+    border-radius: 10px
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.329)
+    margin-bottom: 1rem
+    h2,h4,h5,h6,p
+        margin: 0px
+        padding: 0px
+    h2
+        margin-bottom: .5rem
+//custom grid
+.row
+    width: 100%
+    display: flex
+    .col
+        margin: 0px 1rem
+    .m6
+        width: 50%
+    &.left-right
+        justify-content: space-between
+        .right
+            align-self: center
+    
